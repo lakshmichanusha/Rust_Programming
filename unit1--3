@@ -1,0 +1,10 @@
+/*author:chanusha
+Unit-1
+3rd Question*/
+fn main() {
+    let mut x=1000;
+    let y="Programming";
+    print!("{0}\t{1}\n",x,y);
+     x=1100;
+    print!("{0}\t{1}",x,y);
+}
