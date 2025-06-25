@@ -1,0 +1,5 @@
+fn main() {
+    let tuple:(i32,&str,bool)=(2,"hello",true);
+    print!(" the given tuple is tuple={:?}",tuple);
+    
+}
