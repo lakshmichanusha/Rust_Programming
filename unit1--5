@@ -1,0 +1,14 @@
+
+fn main() {
+    //implicit
+    let x=1000;
+    println!("implicit x={}",x);
+    
+    //explicit
+
+    let y:i32 =20;
+    println!("explicit y={}",y);
+    let s:&str  ="chanusha";
+    println!("explicit s={}",s);
+    
+}
