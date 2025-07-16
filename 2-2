@@ -1,0 +1,17 @@
+fn main() {
+   
+    let x=10;
+    let y=&x;
+    println!("{},{}",x,y);
+    let mut p=5;
+    let q=&mut p;
+    *q=10;
+
+    println!("{}",q);
+    println!("{},{}",x,y);
+
+   
+}
+
+
+
